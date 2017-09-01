@@ -102,6 +102,7 @@
 		C5314A431F4EA92600EEAC43 /* Matrix */ = {
 			isa = PBXGroup;
 			children = (
+				C582D18F1F59547A00903D33 /* AI */,
 				C5314A461F4EAA6800EEAC43 /* Oracle */,
 				C5314A451F4EAA6800EEAC43 /* Agent */,
 			);
@@ -138,6 +139,13 @@
 				C5314A4C1F4EAC3D00EEAC43 /* REHuman.m */,
 			);
 			path = Architect;
+			sourceTree = "<group>";
+		};
+		C582D18F1F59547A00903D33 /* AI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -376,6 +384,7 @@
 				C5314A411F4E82F500EEAC43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
