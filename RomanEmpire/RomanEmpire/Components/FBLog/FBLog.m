@@ -10,6 +10,15 @@
 
 @implementation FBLog
 
++ (void)logAPPInfo
+{
+    
+}
+
++ (void)logDeviceInfo
+{
+    
+}
 
 
 
