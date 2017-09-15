@@ -16,6 +16,9 @@
 		C5314A3B1F4E82F500EEAC43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5314A391F4E82F500EEAC43 /* LaunchScreen.storyboard */; };
 		C5314A4A1F4EAB8D00EEAC43 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C5314A491F4EAB8C00EEAC43 /* Person.m */; };
 		C5314A4D1F4EAC3D00EEAC43 /* REHuman.m in Sources */ = {isa = PBXBuildFile; fileRef = C5314A4C1F4EAC3D00EEAC43 /* REHuman.m */; };
+		C582D1DB1F6A8A6000903D33 /* FBLog.m in Sources */ = {isa = PBXBuildFile; fileRef = C582D1DA1F6A8A6000903D33 /* FBLog.m */; };
+		C582D1DE1F6A8AE500903D33 /* FBAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C582D1DD1F6A8AE500903D33 /* FBAppInfo.m */; };
+		C582D1E21F6A96E200903D33 /* NSString+FBInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C582D1E11F6A96E200903D33 /* NSString+FBInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,12 @@
 		C5314A491F4EAB8C00EEAC43 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		C5314A4B1F4EAC3D00EEAC43 /* REHuman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REHuman.h; sourceTree = "<group>"; };
 		C5314A4C1F4EAC3D00EEAC43 /* REHuman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REHuman.m; sourceTree = "<group>"; };
+		C582D1D91F6A8A6000903D33 /* FBLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLog.h; sourceTree = "<group>"; };
+		C582D1DA1F6A8A6000903D33 /* FBLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLog.m; sourceTree = "<group>"; };
+		C582D1DC1F6A8AE500903D33 /* FBAppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBAppInfo.h; sourceTree = "<group>"; };
+		C582D1DD1F6A8AE500903D33 /* FBAppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBAppInfo.m; sourceTree = "<group>"; };
+		C582D1E01F6A96E200903D33 /* NSString+FBInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FBInfo.h"; sourceTree = "<group>"; };
+		C582D1E11F6A96E200903D33 /* NSString+FBInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FBInfo.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +104,8 @@
 		C5314A421F4EA7A800EEAC43 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				C582D1DF1F6A96A100903D33 /* Categories */,
+				C582D1D81F6A8A3700903D33 /* FBLog */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -146,6 +157,26 @@
 			children = (
 			);
 			path = AI;
+			sourceTree = "<group>";
+		};
+		C582D1D81F6A8A3700903D33 /* FBLog */ = {
+			isa = PBXGroup;
+			children = (
+				C582D1D91F6A8A6000903D33 /* FBLog.h */,
+				C582D1DA1F6A8A6000903D33 /* FBLog.m */,
+				C582D1DC1F6A8AE500903D33 /* FBAppInfo.h */,
+				C582D1DD1F6A8AE500903D33 /* FBAppInfo.m */,
+			);
+			path = FBLog;
+			sourceTree = "<group>";
+		};
+		C582D1DF1F6A96A100903D33 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C582D1E01F6A96E200903D33 /* NSString+FBInfo.h */,
+				C582D1E11F6A96E200903D33 /* NSString+FBInfo.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +253,9 @@
 			files = (
 				C5314A4D1F4EAC3D00EEAC43 /* REHuman.m in Sources */,
 				C5314A301F4E82F500EEAC43 /* ViewController.m in Sources */,
+				C582D1E21F6A96E200903D33 /* NSString+FBInfo.m in Sources */,
+				C582D1DB1F6A8A6000903D33 /* FBLog.m in Sources */,
+				C582D1DE1F6A8AE500903D33 /* FBAppInfo.m in Sources */,
 				C5314A2D1F4E82F500EEAC43 /* AppDelegate.m in Sources */,
 				C5314A4A1F4EAB8D00EEAC43 /* Person.m in Sources */,
 				C5314A2A1F4E82F500EEAC43 /* main.m in Sources */,
