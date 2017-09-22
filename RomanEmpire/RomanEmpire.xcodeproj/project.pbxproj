@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C519EEC61F74FC37004BCE3A /* FBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C519EEC51F74FC37004BCE3A /* FBViewController.m */; };
+		C519EEC91F74FCA8004BCE3A /* FBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C519EEC81F74FCA8004BCE3A /* FBModel.m */; };
+		C519EECB1F74FF60004BCE3A /* AIIntroduce in Resources */ = {isa = PBXBuildFile; fileRef = C519EECA1F74FF60004BCE3A /* AIIntroduce */; };
+		C519EECD1F74FF7F004BCE3A /* Introduce in Resources */ = {isa = PBXBuildFile; fileRef = C519EECC1F74FF7F004BCE3A /* Introduce */; };
 		C5314A2A1F4E82F500EEAC43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5314A291F4E82F500EEAC43 /* main.m */; };
 		C5314A2D1F4E82F500EEAC43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5314A2C1F4E82F500EEAC43 /* AppDelegate.m */; };
 		C5314A301F4E82F500EEAC43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5314A2F1F4E82F500EEAC43 /* ViewController.m */; };
@@ -21,6 +25,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C519EEC41F74FC37004BCE3A /* FBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBViewController.h; sourceTree = "<group>"; };
+		C519EEC51F74FC37004BCE3A /* FBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBViewController.m; sourceTree = "<group>"; };
+		C519EEC71F74FCA8004BCE3A /* FBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBModel.h; sourceTree = "<group>"; };
+		C519EEC81F74FCA8004BCE3A /* FBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBModel.m; sourceTree = "<group>"; };
+		C519EECA1F74FF60004BCE3A /* AIIntroduce */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AIIntroduce; sourceTree = "<group>"; };
+		C519EECC1F74FF7F004BCE3A /* Introduce */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Introduce; sourceTree = "<group>"; };
+		C519EECE1F74FFB4004BCE3A /* AI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AI.h; sourceTree = "<group>"; };
 		C5314A251F4E82F500EEAC43 /* RomanEmpire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomanEmpire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5314A291F4E82F500EEAC43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C5314A2B1F4E82F500EEAC43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +64,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C519EEC31F74FBF9004BCE3A /* Kernel */ = {
+			isa = PBXGroup;
+			children = (
+				C519EEC41F74FC37004BCE3A /* FBViewController.h */,
+				C519EEC51F74FC37004BCE3A /* FBViewController.m */,
+				C519EEC71F74FCA8004BCE3A /* FBModel.h */,
+				C519EEC81F74FCA8004BCE3A /* FBModel.m */,
+			);
+			path = Kernel;
+			sourceTree = "<group>";
+		};
 		C5314A1C1F4E82F500EEAC43 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +132,7 @@
 		C5314A431F4EA92600EEAC43 /* Matrix */ = {
 			isa = PBXGroup;
 			children = (
+				C519EEC31F74FBF9004BCE3A /* Kernel */,
 				C582D18F1F59547A00903D33 /* AI */,
 				C5314A461F4EAA6800EEAC43 /* Oracle */,
 				C5314A451F4EAA6800EEAC43 /* Agent */,
@@ -152,6 +175,9 @@
 		C582D18F1F59547A00903D33 /* AI */ = {
 			isa = PBXGroup;
 			children = (
+				C519EECA1F74FF60004BCE3A /* AIIntroduce */,
+				C519EECE1F74FFB4004BCE3A /* AI.h */,
+				C519EECC1F74FF7F004BCE3A /* Introduce */,
 			);
 			path = AI;
 			sourceTree = "<group>";
@@ -233,8 +259,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C519EECD1F74FF7F004BCE3A /* Introduce in Resources */,
 				C5314A3B1F4E82F500EEAC43 /* LaunchScreen.storyboard in Resources */,
 				C5314A381F4E82F500EEAC43 /* Assets.xcassets in Resources */,
+				C519EECB1F74FF60004BCE3A /* AIIntroduce in Resources */,
 				C5314A331F4E82F500EEAC43 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,8 +276,10 @@
 			files = (
 				C5314A4D1F4EAC3D00EEAC43 /* REHuman.m in Sources */,
 				C5314A301F4E82F500EEAC43 /* ViewController.m in Sources */,
+				C519EEC61F74FC37004BCE3A /* FBViewController.m in Sources */,
 				C582D1E21F6A96E200903D33 /* NSString+FBInfo.m in Sources */,
 				C582D1DB1F6A8A6000903D33 /* FBLog.m in Sources */,
+				C519EEC91F74FCA8004BCE3A /* FBModel.m in Sources */,
 				C5314A2D1F4E82F500EEAC43 /* AppDelegate.m in Sources */,
 				C5314A4A1F4EAB8D00EEAC43 /* Person.m in Sources */,
 				C5314A2A1F4E82F500EEAC43 /* main.m in Sources */,
