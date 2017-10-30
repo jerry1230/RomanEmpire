@@ -9,5 +9,21 @@
 #import "Person.h"
 
 @implementation Person
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        NSLog(@"SELF:%@",NSStringFromClass([self class]));
+        NSLog(@"SUPER:%@",NSStringFromClass([super class]));
+    }
+    return self;
+}
+
+- (void)testClassName
+{
+    NSLog(@"SELF:%@",NSStringFromClass([self class]));
+    NSLog(@"SUPER:%@",NSStringFromClass([super class]));
+}
+
 
 @end

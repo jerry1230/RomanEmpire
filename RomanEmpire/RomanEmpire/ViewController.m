@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "RuntimeTestVC.h"
+
 
 @interface ViewController ()
 
@@ -16,7 +18,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    RuntimeTestVC *vc = [[RuntimeTestVC alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+
+
 }
 
 
