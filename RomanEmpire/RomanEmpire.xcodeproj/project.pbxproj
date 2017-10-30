@@ -23,7 +23,6 @@
 		C5314A4D1F4EAC3D00EEAC43 /* REHuman.m in Sources */ = {isa = PBXBuildFile; fileRef = C5314A4C1F4EAC3D00EEAC43 /* REHuman.m */; };
 		C582D1DB1F6A8A6000903D33 /* FBLog.m in Sources */ = {isa = PBXBuildFile; fileRef = C582D1DA1F6A8A6000903D33 /* FBLog.m */; };
 		C582D1E21F6A96E200903D33 /* NSString+FBInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C582D1E11F6A96E200903D33 /* NSString+FBInfo.m */; };
-		C5A7D1EC1FA322230081E3D6 /* RuntimeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A7D1EB1FA322230081E3D6 /* RuntimeTest.m */; };
 		C5A7D1EF1FA322FF0081E3D6 /* RuntimeTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A7D1EE1FA322FF0081E3D6 /* RuntimeTestVC.m */; };
 /* End PBXBuildFile section */
 
@@ -57,8 +56,6 @@
 		C582D1DA1F6A8A6000903D33 /* FBLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLog.m; sourceTree = "<group>"; };
 		C582D1E01F6A96E200903D33 /* NSString+FBInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FBInfo.h"; sourceTree = "<group>"; };
 		C582D1E11F6A96E200903D33 /* NSString+FBInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FBInfo.m"; sourceTree = "<group>"; };
-		C5A7D1EA1FA322230081E3D6 /* RuntimeTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeTest.h; sourceTree = "<group>"; };
-		C5A7D1EB1FA322230081E3D6 /* RuntimeTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeTest.m; sourceTree = "<group>"; };
 		C5A7D1ED1FA322FF0081E3D6 /* RuntimeTestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeTestVC.h; sourceTree = "<group>"; };
 		C5A7D1EE1FA322FF0081E3D6 /* RuntimeTestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeTestVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -157,8 +154,6 @@
 				C5314A491F4EAB8C00EEAC43 /* Person.m */,
 				C519EEF81F75274D004BCE3A /* NetTest.h */,
 				C519EEF91F75274D004BCE3A /* NetTest.m */,
-				C5A7D1EA1FA322230081E3D6 /* RuntimeTest.h */,
-				C5A7D1EB1FA322230081E3D6 /* RuntimeTest.m */,
 				C5A7D1ED1FA322FF0081E3D6 /* RuntimeTestVC.h */,
 				C5A7D1EE1FA322FF0081E3D6 /* RuntimeTestVC.m */,
 			);
@@ -295,7 +290,6 @@
 				C519EEC61F74FC37004BCE3A /* FBViewController.m in Sources */,
 				C582D1E21F6A96E200903D33 /* NSString+FBInfo.m in Sources */,
 				C582D1DB1F6A8A6000903D33 /* FBLog.m in Sources */,
-				C5A7D1EC1FA322230081E3D6 /* RuntimeTest.m in Sources */,
 				C519EED11F751E37004BCE3A /* FBIOManager.m in Sources */,
 				C519EEC91F74FCA8004BCE3A /* FBModel.m in Sources */,
 				C519EEFA1F75274D004BCE3A /* NetTest.m in Sources */,
