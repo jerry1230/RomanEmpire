@@ -23,6 +23,9 @@
 		C5314A4D1F4EAC3D00EEAC43 /* REHuman.m in Sources */ = {isa = PBXBuildFile; fileRef = C5314A4C1F4EAC3D00EEAC43 /* REHuman.m */; };
 		C582D1DB1F6A8A6000903D33 /* FBLog.m in Sources */ = {isa = PBXBuildFile; fileRef = C582D1DA1F6A8A6000903D33 /* FBLog.m */; };
 		C582D1E21F6A96E200903D33 /* NSString+FBInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C582D1E11F6A96E200903D33 /* NSString+FBInfo.m */; };
+		C5A7D1EF1FA322FF0081E3D6 /* RuntimeTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A7D1EE1FA322FF0081E3D6 /* RuntimeTestVC.m */; };
+		DC8CF97A1FCBE2BD00DB395A /* LockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8CF9791FCBE2BD00DB395A /* LockTest.m */; };
+		DC8CF97D1FCBE35C00DB395A /* TestCenterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8CF97C1FCBE35C00DB395A /* TestCenterVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +58,12 @@
 		C582D1DA1F6A8A6000903D33 /* FBLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLog.m; sourceTree = "<group>"; };
 		C582D1E01F6A96E200903D33 /* NSString+FBInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FBInfo.h"; sourceTree = "<group>"; };
 		C582D1E11F6A96E200903D33 /* NSString+FBInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FBInfo.m"; sourceTree = "<group>"; };
+		C5A7D1ED1FA322FF0081E3D6 /* RuntimeTestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeTestVC.h; sourceTree = "<group>"; };
+		C5A7D1EE1FA322FF0081E3D6 /* RuntimeTestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeTestVC.m; sourceTree = "<group>"; };
+		DC8CF9781FCBE2BD00DB395A /* LockTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockTest.h; sourceTree = "<group>"; };
+		DC8CF9791FCBE2BD00DB395A /* LockTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockTest.m; sourceTree = "<group>"; };
+		DC8CF97B1FCBE35C00DB395A /* TestCenterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCenterVC.h; sourceTree = "<group>"; };
+		DC8CF97C1FCBE35C00DB395A /* TestCenterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCenterVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				C5314A471F4EAAC900EEAC43 /* Architect */,
-				C5314A431F4EA92600EEAC43 /* Matrix */,
 				C5314A441F4EA93200EEAC43 /* Zion */,
-				C5314A421F4EA7A800EEAC43 /* Components */,
 				C5314A2B1F4E82F500EEAC43 /* AppDelegate.h */,
 				C5314A2C1F4E82F500EEAC43 /* AppDelegate.m */,
 				C5314A2E1F4E82F500EEAC43 /* ViewController.h */,
@@ -139,7 +146,7 @@
 				C519EEC31F74FBF9004BCE3A /* Kernel */,
 				C582D18F1F59547A00903D33 /* AI */,
 				C5314A461F4EAA6800EEAC43 /* Oracle */,
-				C5314A451F4EAA6800EEAC43 /* Agent */,
+				DC8CF9871FCBE58400DB395A /* Agent */,
 			);
 			path = Matrix;
 			sourceTree = "<group>";
@@ -147,19 +154,18 @@
 		C5314A441F4EA93200EEAC43 /* Zion */ = {
 			isa = PBXGroup;
 			children = (
+				DC8CF97B1FCBE35C00DB395A /* TestCenterVC.h */,
+				DC8CF97C1FCBE35C00DB395A /* TestCenterVC.m */,
 				C5314A481F4EAB8C00EEAC43 /* Person.h */,
 				C5314A491F4EAB8C00EEAC43 /* Person.m */,
 				C519EEF81F75274D004BCE3A /* NetTest.h */,
 				C519EEF91F75274D004BCE3A /* NetTest.m */,
+				C5A7D1ED1FA322FF0081E3D6 /* RuntimeTestVC.h */,
+				C5A7D1EE1FA322FF0081E3D6 /* RuntimeTestVC.m */,
+				DC8CF9781FCBE2BD00DB395A /* LockTest.h */,
+				DC8CF9791FCBE2BD00DB395A /* LockTest.m */,
 			);
 			path = Zion;
-			sourceTree = "<group>";
-		};
-		C5314A451F4EAA6800EEAC43 /* Agent */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Agent;
 			sourceTree = "<group>";
 		};
 		C5314A461F4EAA6800EEAC43 /* Oracle */ = {
@@ -183,6 +189,7 @@
 		C582D18F1F59547A00903D33 /* AI */ = {
 			isa = PBXGroup;
 			children = (
+				DC8CF9861FCBE56D00DB395A /* DeepLearning */,
 				C519EECC1F74FF7F004BCE3A /* Introduce */,
 				C519EECE1F74FFB4004BCE3A /* AI.h */,
 			);
@@ -205,6 +212,20 @@
 				C582D1E11F6A96E200903D33 /* NSString+FBInfo.m */,
 			);
 			path = Categories;
+			sourceTree = "<group>";
+		};
+		DC8CF9861FCBE56D00DB395A /* DeepLearning */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DeepLearning;
+			sourceTree = "<group>";
+		};
+		DC8CF9871FCBE58400DB395A /* Agent */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Agent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,9 +306,12 @@
 				C519EEC61F74FC37004BCE3A /* FBViewController.m in Sources */,
 				C582D1E21F6A96E200903D33 /* NSString+FBInfo.m in Sources */,
 				C582D1DB1F6A8A6000903D33 /* FBLog.m in Sources */,
+				DC8CF97D1FCBE35C00DB395A /* TestCenterVC.m in Sources */,
 				C519EED11F751E37004BCE3A /* FBIOManager.m in Sources */,
+				DC8CF97A1FCBE2BD00DB395A /* LockTest.m in Sources */,
 				C519EEC91F74FCA8004BCE3A /* FBModel.m in Sources */,
 				C519EEFA1F75274D004BCE3A /* NetTest.m in Sources */,
+				C5A7D1EF1FA322FF0081E3D6 /* RuntimeTestVC.m in Sources */,
 				C5314A2D1F4E82F500EEAC43 /* AppDelegate.m in Sources */,
 				C5314A4A1F4EAB8D00EEAC43 /* Person.m in Sources */,
 				C5314A2A1F4E82F500EEAC43 /* main.m in Sources */,

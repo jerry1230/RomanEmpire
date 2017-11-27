@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "TestCenterVC.h"
+
 
 @interface ViewController ()
 
@@ -16,9 +18,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
+    TestCenterVC *vc = [[TestCenterVC alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 
+//aaaaa
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

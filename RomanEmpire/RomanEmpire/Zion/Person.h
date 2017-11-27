@@ -9,5 +9,8 @@
 #import "REHuman.h"
 
 @interface Person : REHuman
+- (void)testClassName;
+
+
 
 @end
