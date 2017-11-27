@@ -20,8 +20,7 @@
     [super viewDidLoad];
     TestCenterVC *vc = [[TestCenterVC alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
-
-
+//aaaaa
 }
 
 
