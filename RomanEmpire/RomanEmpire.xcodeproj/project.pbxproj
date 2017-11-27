@@ -148,6 +148,7 @@
 				C519EEC31F74FBF9004BCE3A /* Kernel */,
 				C582D18F1F59547A00903D33 /* AI */,
 				C5314A461F4EAA6800EEAC43 /* Oracle */,
+				DC8CF9871FCBE58400DB395A /* Agent */,
 			);
 			path = Matrix;
 			sourceTree = "<group>";
@@ -190,6 +191,7 @@
 		C582D18F1F59547A00903D33 /* AI */ = {
 			isa = PBXGroup;
 			children = (
+				DC8CF9861FCBE56D00DB395A /* DeepLearning */,
 				C519EECC1F74FF7F004BCE3A /* Introduce */,
 				C519EECE1F74FFB4004BCE3A /* AI.h */,
 			);
@@ -212,6 +214,20 @@
 				C582D1E11F6A96E200903D33 /* NSString+FBInfo.m */,
 			);
 			path = Categories;
+			sourceTree = "<group>";
+		};
+		DC8CF9861FCBE56D00DB395A /* DeepLearning */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DeepLearning;
+			sourceTree = "<group>";
+		};
+		DC8CF9871FCBE58400DB395A /* Agent */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Agent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

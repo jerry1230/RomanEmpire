@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "RuntimeTestVC.h"
+#import "TestCenterVC.h"
 
 
 @interface ViewController ()
@@ -18,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    RuntimeTestVC *vc = [[RuntimeTestVC alloc] init];
+    TestCenterVC *vc = [[TestCenterVC alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 
 
