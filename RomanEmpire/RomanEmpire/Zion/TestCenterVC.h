@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  TestCenterVC.h
 //  RomanEmpire
 //
-//  Created by Bird on 2017/8/24.
+//  Created by Flying on 2017/11/27.
 //  Copyright © 2017年 Flyingbird. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TestCenterVC : UIViewController
 
 @end
-
