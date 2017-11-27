@@ -67,9 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				C5314A471F4EAAC900EEAC43 /* Architect */,
-				C5314A431F4EA92600EEAC43 /* Matrix */,
 				C5314A441F4EA93200EEAC43 /* Zion */,
-				C5314A421F4EA7A800EEAC43 /* Components */,
 				C5314A2B1F4E82F500EEAC43 /* AppDelegate.h */,
 				C5314A2C1F4E82F500EEAC43 /* AppDelegate.m */,
 				C5314A2E1F4E82F500EEAC43 /* ViewController.h */,
@@ -92,22 +90,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C5314A421F4EA7A800EEAC43 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		C5314A431F4EA92600EEAC43 /* Matrix */ = {
-			isa = PBXGroup;
-			children = (
-				C5314A461F4EAA6800EEAC43 /* Oracle */,
-				C5314A451F4EAA6800EEAC43 /* Agent */,
-			);
-			path = Matrix;
-			sourceTree = "<group>";
-		};
 		C5314A441F4EA93200EEAC43 /* Zion */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,20 +97,6 @@
 				C5314A491F4EAB8C00EEAC43 /* Person.m */,
 			);
 			path = Zion;
-			sourceTree = "<group>";
-		};
-		C5314A451F4EAA6800EEAC43 /* Agent */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Agent;
-			sourceTree = "<group>";
-		};
-		C5314A461F4EAA6800EEAC43 /* Oracle */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Oracle;
 			sourceTree = "<group>";
 		};
 		C5314A471F4EAAC900EEAC43 /* Architect */ = {
@@ -376,6 +344,7 @@
 				C5314A411F4E82F500EEAC43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
