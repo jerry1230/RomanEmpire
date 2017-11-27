@@ -20,12 +20,8 @@
     [super viewDidLoad];
     TestCenterVC *vc = [[TestCenterVC alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
-}
 
-
-- (void)showAlertWithTitle:(NSString *)str message:(NSString *)str actionTitle:(NSString *)str Block:()block
-{
-    
+//aaaaa
 }
 
 - (void)didReceiveMemoryWarning {
