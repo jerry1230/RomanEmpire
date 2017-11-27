@@ -12,7 +12,7 @@
 
 + (void)logAPPInfo
 {
-    
+    //test
 }
 
 + (void)logDeviceInfo

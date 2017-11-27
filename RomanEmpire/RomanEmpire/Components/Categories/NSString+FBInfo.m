@@ -10,6 +10,7 @@
 #import <UIKit/UIDevice.h>
 
 @implementation NSString(FBInfo)
+
 # pragma mark - APPInfo
 + (NSString *)appName
 {
