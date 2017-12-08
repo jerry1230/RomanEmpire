@@ -7,20 +7,37 @@
 //
 
 #import "TestCenterVC.h"
-
+#import "CellAnmiationTestVC.h"
 @interface TestCenterVC ()
-
 @end
 
 @implementation TestCenterVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    self.title = @"TestCenterVC";
+    
+    UIButton *btn  =  [UIButton buttonWithType:UIButtonTypeSystem];
+    btn.frame = CGRectMake(self.view.center.x, self.view.center.y, 100, 100);
+    [btn setTitle:@"Test" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(testBtnAction) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+    
+    NSMutableArray *array = [[NSMutableArray alloc] initWithObjects:@"1",@"2",@"3", nil];
+    NSString *str = array[0];
+    [array removeObjectAtIndex:0];
+    NSLog(@"%@",str);
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+}
+
+- (void)testBtnAction
+{
+    CellAnmiationTestVC *vc = [[CellAnmiationTestVC alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 /*
