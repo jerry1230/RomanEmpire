@@ -19,6 +19,8 @@
 		C5314A4D1F4EAC3D00EEAC43 /* REHuman.m in Sources */ = {isa = PBXBuildFile; fileRef = C5314A4C1F4EAC3D00EEAC43 /* REHuman.m */; };
 		C5A7D1EF1FA322FF0081E3D6 /* RuntimeTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A7D1EE1FA322FF0081E3D6 /* RuntimeTestVC.m */; };
 		DC1D31411FD4EA3900FE1A1E /* CellAnmiationTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1D31401FD4EA3900FE1A1E /* CellAnmiationTestVC.m */; };
+		DC53AC8120458AAE000DE4CC /* MultithreadingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DC53AC8020458AAE000DE4CC /* MultithreadingTest.m */; };
+		DC53AC8420458B0C000DE4CC /* MultithreadingTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DC53AC8320458B0C000DE4CC /* MultithreadingTestVC.m */; };
 		DC8CF97A1FCBE2BD00DB395A /* LockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8CF9791FCBE2BD00DB395A /* LockTest.m */; };
 		DC8CF97D1FCBE35C00DB395A /* TestCenterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8CF97C1FCBE35C00DB395A /* TestCenterVC.m */; };
 		DC8CF99D1FCBF16F00DB395A /* FBIOManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8CF9921FCBF16F00DB395A /* FBIOManager.m */; };
@@ -57,6 +59,10 @@
 		C5A7D1EE1FA322FF0081E3D6 /* RuntimeTestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeTestVC.m; sourceTree = "<group>"; };
 		DC1D313F1FD4EA3900FE1A1E /* CellAnmiationTestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellAnmiationTestVC.h; sourceTree = "<group>"; };
 		DC1D31401FD4EA3900FE1A1E /* CellAnmiationTestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellAnmiationTestVC.m; sourceTree = "<group>"; };
+		DC53AC7F20458AAE000DE4CC /* MultithreadingTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultithreadingTest.h; sourceTree = "<group>"; };
+		DC53AC8020458AAE000DE4CC /* MultithreadingTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultithreadingTest.m; sourceTree = "<group>"; };
+		DC53AC8220458B0C000DE4CC /* MultithreadingTestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultithreadingTestVC.h; sourceTree = "<group>"; };
+		DC53AC8320458B0C000DE4CC /* MultithreadingTestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultithreadingTestVC.m; sourceTree = "<group>"; };
 		DC8CF9781FCBE2BD00DB395A /* LockTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockTest.h; sourceTree = "<group>"; };
 		DC8CF9791FCBE2BD00DB395A /* LockTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockTest.m; sourceTree = "<group>"; };
 		DC8CF97B1FCBE35C00DB395A /* TestCenterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCenterVC.h; sourceTree = "<group>"; };
@@ -147,6 +153,10 @@
 				DC8CF9791FCBE2BD00DB395A /* LockTest.m */,
 				DC1D313F1FD4EA3900FE1A1E /* CellAnmiationTestVC.h */,
 				DC1D31401FD4EA3900FE1A1E /* CellAnmiationTestVC.m */,
+				DC53AC7F20458AAE000DE4CC /* MultithreadingTest.h */,
+				DC53AC8020458AAE000DE4CC /* MultithreadingTest.m */,
+				DC53AC8220458B0C000DE4CC /* MultithreadingTestVC.h */,
+				DC53AC8320458B0C000DE4CC /* MultithreadingTestVC.m */,
 			);
 			path = Zion;
 			sourceTree = "<group>";
@@ -337,9 +347,11 @@
 				DC8CF9A81FCBF17C00DB395A /* FBLog.m in Sources */,
 				DC8CF99F1FCBF16F00DB395A /* FBModel.m in Sources */,
 				C519EEFA1F75274D004BCE3A /* NetTest.m in Sources */,
+				DC53AC8420458B0C000DE4CC /* MultithreadingTestVC.m in Sources */,
 				DC1D31411FD4EA3900FE1A1E /* CellAnmiationTestVC.m in Sources */,
 				C5A7D1EF1FA322FF0081E3D6 /* RuntimeTestVC.m in Sources */,
 				DC8CF9A91FCBF17C00DB395A /* NSString+FBInfo.m in Sources */,
+				DC53AC8120458AAE000DE4CC /* MultithreadingTest.m in Sources */,
 				C5314A2D1F4E82F500EEAC43 /* AppDelegate.m in Sources */,
 				C5314A4A1F4EAB8D00EEAC43 /* Person.m in Sources */,
 				C5314A2A1F4E82F500EEAC43 /* main.m in Sources */,
