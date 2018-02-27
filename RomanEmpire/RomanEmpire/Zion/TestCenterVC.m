@@ -8,6 +8,8 @@
 
 #import "TestCenterVC.h"
 #import "CellAnmiationTestVC.h"
+#import "MultithreadingTestVC.h"
+
 @interface TestCenterVC ()
 @end
 
@@ -36,7 +38,11 @@
 
 - (void)testBtnAction
 {
-    CellAnmiationTestVC *vc = [[CellAnmiationTestVC alloc] init];
+//    CellAnmiationTestVC *vc = [[CellAnmiationTestVC alloc] init];
+//    [self.navigationController pushViewController:vc animated:YES];
+    
+    
+    MultithreadingTestVC *vc = [[MultithreadingTestVC alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 
