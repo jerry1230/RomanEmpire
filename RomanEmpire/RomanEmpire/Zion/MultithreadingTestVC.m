@@ -18,12 +18,47 @@
     [super viewDidLoad];
     NSLog(@"Current thread:%@",[NSThread currentThread]);
     
-    [self test];
-    [self test1];
-    [self test2];
-    [self test3];
+//    [self test];
+//    [self test1];
+//    [self test2];
+//    [self test3];
+    
+    [self semaphoreTest];
+
 }
 
+- (void)semaphoreTest
+{
+    dispatch_semaphore_t signal = dispatch_semaphore_create(1);
+    
+    __weak typeof(self) weak_self = self;
+    
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_LOW, 0), ^{
+        long y = dispatch_semaphore_wait(signal, DISPATCH_TIME_FOREVER);
+        NSLog(@"taskA receieve signal Current thread:%@",[NSThread currentThread]);
+        //y = 0 表示 任务被成功唤醒 否则表示等待超时，自动执行任务
+        NSLog(@"y = %ld",y);
+        [weak_self taskA];
+    });
+    
+    dispatch_async(dispatch_get_global_queue(0, 0), ^{
+        long y = dispatch_semaphore_wait(signal, DISPATCH_TIME_FOREVER);
+        NSLog(@"taskB receieve signal Current thread:%@",[NSThread currentThread]);
+        //y = 0 表示 任务被成功唤醒 否则表示等待超时，自动执行任务
+        NSLog(@"y = %ld",y);
+        [weak_self taskB];
+    });
+    
+    dispatch_semaphore_signal(signal);
+
+    dispatch_async(dispatch_get_global_queue(0, 0), ^{
+        sleep(1);
+        long x = dispatch_semaphore_signal(signal);
+        //x 代表等待唤醒的任务数量
+        NSLog(@"x = %ld",x);
+        NSLog(@"send signal Current thread:%@",[NSThread currentThread]);
+    });
+}
 
 - (void)test
 {
@@ -64,7 +99,6 @@
     });
 }
 
-
 //单线程同步与单线程异步测试
 - (void)taskA
 {
@@ -93,6 +127,21 @@
     }
     if (i==3) {
         NSLog(@"TaskB Done!");
+    }
+}
+
+- (void)taskC
+{
+    NSLog(@"TaskC Current thread:%@",[NSThread currentThread]);
+    
+    NSLog(@"TaskC Start!");
+    int i = 0;
+    while (i<5) {
+        i++;
+        sleep(1);
+    }
+    if (i==5) {
+        NSLog(@"TaskC Done!");
     }
 }
 

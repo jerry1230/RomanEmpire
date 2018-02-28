@@ -26,10 +26,10 @@
     [self.view addSubview:btn];
     
     NSMutableArray *array = [[NSMutableArray alloc] initWithObjects:@"1",@"2",@"3", nil];
-    NSString *str = array[0];
+//    NSString *str = array[0];
     [array removeObjectAtIndex:0];
-    NSLog(@"%@",str);
-    
+//    NSLog(@"%@",str);
+
 }
 
 - (void)didReceiveMemoryWarning {
