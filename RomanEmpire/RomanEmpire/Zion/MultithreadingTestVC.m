@@ -27,6 +27,27 @@
 
 }
 
+
+//自定义线程入口
+- (void)threadRoutine
+{
+//    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+//    BOOL moreWorkToDo = YES;
+//    BOOL exitNow = NO;
+//    NSRunLoop* runLoop = [NSRunLoop currentRunLoop];
+//    NSMutableDictionary* threadDict = [[NSThread currentThread] threadDictionary];
+//    [threadDict setValue:[NSNumber numberWithBool:exitNow] forKey:@"ThreadShouldExitNow"];
+//    //添加事件源
+//    [self myInstallCustomInputSource];
+//    while (moreWorkToDo && !exitNow)
+//    {
+//        //执行线程真正的工作方法，如果完成了可以设置moreWorkToDo为False
+//        [runLoop runUntilDate:[NSDate date]];
+//        exitNow = [[threadDict valueForKey:@"ThreadShouldExitNow"] boolValue];
+//    }
+//    [pool release];
+}
+
 - (void)semaphoreTest
 {
     dispatch_semaphore_t signal = dispatch_semaphore_create(1);

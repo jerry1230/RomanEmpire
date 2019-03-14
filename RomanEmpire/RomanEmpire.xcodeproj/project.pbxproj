@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B285AECF5CC522F797268935 /* libPods-RomanEmpire.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4885B68E90F572BB2A7BCA7 /* libPods-RomanEmpire.a */; };
 		C519EEFA1F75274D004BCE3A /* NetTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C519EEF91F75274D004BCE3A /* NetTest.m */; };
 		C5314A2A1F4E82F500EEAC43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5314A291F4E82F500EEAC43 /* main.m */; };
 		C5314A2D1F4E82F500EEAC43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5314A2C1F4E82F500EEAC43 /* AppDelegate.m */; };
@@ -18,6 +19,8 @@
 		C5314A4A1F4EAB8D00EEAC43 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C5314A491F4EAB8C00EEAC43 /* Person.m */; };
 		C5314A4D1F4EAC3D00EEAC43 /* REHuman.m in Sources */ = {isa = PBXBuildFile; fileRef = C5314A4C1F4EAC3D00EEAC43 /* REHuman.m */; };
 		C5A7D1EF1FA322FF0081E3D6 /* RuntimeTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A7D1EE1FA322FF0081E3D6 /* RuntimeTestVC.m */; };
+		DC188A0B20DA418500253E25 /* RectProgressVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DC188A0920DA418500253E25 /* RectProgressVC.m */; };
+		DC188A0C20DA418500253E25 /* RectProgressVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC188A0A20DA418500253E25 /* RectProgressVC.xib */; };
 		DC1D31411FD4EA3900FE1A1E /* CellAnmiationTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1D31401FD4EA3900FE1A1E /* CellAnmiationTestVC.m */; };
 		DC53AC8120458AAE000DE4CC /* MultithreadingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DC53AC8020458AAE000DE4CC /* MultithreadingTest.m */; };
 		DC53AC8420458B0C000DE4CC /* MultithreadingTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DC53AC8320458B0C000DE4CC /* MultithreadingTestVC.m */; };
@@ -29,9 +32,11 @@
 		DC8CF9A01FCBF16F00DB395A /* FBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8CF99B1FCBF16F00DB395A /* FBViewController.m */; };
 		DC8CF9A81FCBF17C00DB395A /* FBLog.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8CF9A41FCBF17B00DB395A /* FBLog.m */; };
 		DC8CF9A91FCBF17C00DB395A /* NSString+FBInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8CF9A61FCBF17B00DB395A /* NSString+FBInfo.m */; };
+		DCA1901021B7B65B00899D2C /* MyVideoJob.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA1900F21B7B65B00899D2C /* MyVideoJob.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A2FC3FE7EEDD0EE1A1B7F437 /* Pods-RomanEmpire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RomanEmpire.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RomanEmpire/Pods-RomanEmpire.debug.xcconfig"; sourceTree = "<group>"; };
 		C519EEC51F74FC37004BCE3A /* FBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBViewController.m; sourceTree = "<group>"; };
 		C519EEC81F74FCA8004BCE3A /* FBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBModel.m; sourceTree = "<group>"; };
 		C519EECC1F74FF7F004BCE3A /* Introduce */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Introduce; sourceTree = "<group>"; };
@@ -57,6 +62,11 @@
 		C582D1E11F6A96E200903D33 /* NSString+FBInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FBInfo.m"; sourceTree = "<group>"; };
 		C5A7D1ED1FA322FF0081E3D6 /* RuntimeTestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeTestVC.h; sourceTree = "<group>"; };
 		C5A7D1EE1FA322FF0081E3D6 /* RuntimeTestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeTestVC.m; sourceTree = "<group>"; };
+		CFC353488F9AFB4944D6E0FF /* Pods-RomanEmpire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RomanEmpire.release.xcconfig"; path = "Pods/Target Support Files/Pods-RomanEmpire/Pods-RomanEmpire.release.xcconfig"; sourceTree = "<group>"; };
+		D4885B68E90F572BB2A7BCA7 /* libPods-RomanEmpire.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RomanEmpire.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC188A0820DA418500253E25 /* RectProgressVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RectProgressVC.h; sourceTree = "<group>"; };
+		DC188A0920DA418500253E25 /* RectProgressVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RectProgressVC.m; sourceTree = "<group>"; };
+		DC188A0A20DA418500253E25 /* RectProgressVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RectProgressVC.xib; sourceTree = "<group>"; };
 		DC1D313F1FD4EA3900FE1A1E /* CellAnmiationTestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellAnmiationTestVC.h; sourceTree = "<group>"; };
 		DC1D31401FD4EA3900FE1A1E /* CellAnmiationTestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellAnmiationTestVC.m; sourceTree = "<group>"; };
 		DC53AC7F20458AAE000DE4CC /* MultithreadingTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultithreadingTest.h; sourceTree = "<group>"; };
@@ -79,6 +89,8 @@
 		DC8CF9A41FCBF17B00DB395A /* FBLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLog.m; sourceTree = "<group>"; };
 		DC8CF9A61FCBF17B00DB395A /* NSString+FBInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FBInfo.m"; sourceTree = "<group>"; };
 		DC8CF9A71FCBF17B00DB395A /* NSString+FBInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FBInfo.h"; sourceTree = "<group>"; };
+		DCA1900E21B7B65B00899D2C /* MyVideoJob.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyVideoJob.h; sourceTree = "<group>"; };
+		DCA1900F21B7B65B00899D2C /* MyVideoJob.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyVideoJob.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,18 +98,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B285AECF5CC522F797268935 /* libPods-RomanEmpire.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		70C80D07F63AC4A8B01B2BF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4885B68E90F572BB2A7BCA7 /* libPods-RomanEmpire.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		851ABB9474DAA84CB220F5EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2FC3FE7EEDD0EE1A1B7F437 /* Pods-RomanEmpire.debug.xcconfig */,
+				CFC353488F9AFB4944D6E0FF /* Pods-RomanEmpire.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C5314A1C1F4E82F500EEAC43 = {
 			isa = PBXGroup;
 			children = (
 				C5314A271F4E82F500EEAC43 /* RomanEmpire */,
 				C5314A261F4E82F500EEAC43 /* Products */,
 				DC8CF98E1FCBEF7F00DB395A /* Recovered References */,
+				851ABB9474DAA84CB220F5EB /* Pods */,
+				70C80D07F63AC4A8B01B2BF5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,6 +148,7 @@
 				DC8CF98F1FCBF16F00DB395A /* Matrix */,
 				C5314A441F4EA93200EEAC43 /* Zion */,
 				DC8CF9A11FCBF17B00DB395A /* Components */,
+				DCA1900D21B7B63800899D2C /* Test */,
 				C5314A2B1F4E82F500EEAC43 /* AppDelegate.h */,
 				C5314A2C1F4E82F500EEAC43 /* AppDelegate.m */,
 				C5314A2E1F4E82F500EEAC43 /* ViewController.h */,
@@ -157,6 +190,9 @@
 				DC53AC8020458AAE000DE4CC /* MultithreadingTest.m */,
 				DC53AC8220458B0C000DE4CC /* MultithreadingTestVC.h */,
 				DC53AC8320458B0C000DE4CC /* MultithreadingTestVC.m */,
+				DC188A0820DA418500253E25 /* RectProgressVC.h */,
+				DC188A0920DA418500253E25 /* RectProgressVC.m */,
+				DC188A0A20DA418500253E25 /* RectProgressVC.xib */,
 			);
 			path = Zion;
 			sourceTree = "<group>";
@@ -231,9 +267,9 @@
 			isa = PBXGroup;
 			children = (
 				DC8CF9991FCBF16F00DB395A /* FBViewController.h */,
-				DC8CF99A1FCBF16F00DB395A /* FBModel.m */,
 				DC8CF99B1FCBF16F00DB395A /* FBViewController.m */,
 				DC8CF99C1FCBF16F00DB395A /* FBModel.h */,
+				DC8CF99A1FCBF16F00DB395A /* FBModel.m */,
 			);
 			path = Kernel;
 			sourceTree = "<group>";
@@ -265,6 +301,15 @@
 			path = Categories;
 			sourceTree = "<group>";
 		};
+		DCA1900D21B7B63800899D2C /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				DCA1900E21B7B65B00899D2C /* MyVideoJob.h */,
+				DCA1900F21B7B65B00899D2C /* MyVideoJob.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -272,6 +317,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5314A3F1F4E82F500EEAC43 /* Build configuration list for PBXNativeTarget "RomanEmpire" */;
 			buildPhases = (
+				018F2919E5488390BE9787F8 /* [CP] Check Pods Manifest.lock */,
 				C5314A211F4E82F500EEAC43 /* Sources */,
 				C5314A221F4E82F500EEAC43 /* Frameworks */,
 				C5314A231F4E82F500EEAC43 /* Resources */,
@@ -328,10 +374,32 @@
 				C5314A3B1F4E82F500EEAC43 /* LaunchScreen.storyboard in Resources */,
 				C5314A381F4E82F500EEAC43 /* Assets.xcassets in Resources */,
 				C5314A331F4E82F500EEAC43 /* Main.storyboard in Resources */,
+				DC188A0C20DA418500253E25 /* RectProgressVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		018F2919E5488390BE9787F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RomanEmpire-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C5314A211F4E82F500EEAC43 /* Sources */ = {
@@ -348,10 +416,12 @@
 				DC8CF99F1FCBF16F00DB395A /* FBModel.m in Sources */,
 				C519EEFA1F75274D004BCE3A /* NetTest.m in Sources */,
 				DC53AC8420458B0C000DE4CC /* MultithreadingTestVC.m in Sources */,
+				DC188A0B20DA418500253E25 /* RectProgressVC.m in Sources */,
 				DC1D31411FD4EA3900FE1A1E /* CellAnmiationTestVC.m in Sources */,
 				C5A7D1EF1FA322FF0081E3D6 /* RuntimeTestVC.m in Sources */,
 				DC8CF9A91FCBF17C00DB395A /* NSString+FBInfo.m in Sources */,
 				DC53AC8120458AAE000DE4CC /* MultithreadingTest.m in Sources */,
+				DCA1901021B7B65B00899D2C /* MyVideoJob.m in Sources */,
 				C5314A2D1F4E82F500EEAC43 /* AppDelegate.m in Sources */,
 				C5314A4A1F4EAB8D00EEAC43 /* Person.m in Sources */,
 				C5314A2A1F4E82F500EEAC43 /* main.m in Sources */,
@@ -473,6 +543,7 @@
 		};
 		C5314A401F4E82F500EEAC43 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2FC3FE7EEDD0EE1A1B7F437 /* Pods-RomanEmpire.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SLRDBXE3XE;
@@ -486,6 +557,7 @@
 		};
 		C5314A411F4E82F500EEAC43 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFC353488F9AFB4944D6E0FF /* Pods-RomanEmpire.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SLRDBXE3XE;

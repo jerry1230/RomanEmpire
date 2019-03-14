@@ -9,6 +9,7 @@
 #import "TestCenterVC.h"
 #import "CellAnmiationTestVC.h"
 #import "MultithreadingTestVC.h"
+#import "RectProgressVC.h"
 
 @interface TestCenterVC ()
 @end
@@ -20,7 +21,9 @@
     self.title = @"TestCenterVC";
     
     UIButton *btn  =  [UIButton buttonWithType:UIButtonTypeSystem];
-    btn.frame = CGRectMake(self.view.center.x, self.view.center.y, 100, 100);
+    btn.bounds = CGRectMake(self.view.center.x, self.view.center.y, 100, 100);
+    btn.center = self.view.center;
+
     [btn setTitle:@"Test" forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(testBtnAction) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
@@ -29,7 +32,6 @@
 //    NSString *str = array[0];
     [array removeObjectAtIndex:0];
 //    NSLog(@"%@",str);
-
 }
 
 - (void)didReceiveMemoryWarning {
@@ -41,10 +43,14 @@
 //    CellAnmiationTestVC *vc = [[CellAnmiationTestVC alloc] init];
 //    [self.navigationController pushViewController:vc animated:YES];
     
+//    MultithreadingTestVC *vc = [[MultithreadingTestVC alloc] init];
+//    [self.navigationController pushViewController:vc animated:YES];
     
-    MultithreadingTestVC *vc = [[MultithreadingTestVC alloc] init];
+    RectProgressVC *vc = [[RectProgressVC alloc] initWithNibName:@"RectProgressVC" bundle:nil];
     [self.navigationController pushViewController:vc animated:YES];
 }
+
+
 
 /*
 #pragma mark - Navigation
